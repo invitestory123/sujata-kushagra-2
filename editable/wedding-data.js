@@ -1,6 +1,7 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for midnight-stargaze
- * Kushagra & Sujata Wedding Invitation
+ * Kushagra & Sujata Wedding Invitation (Card 2)
+ * 28th November – 1st December 2026 · Jhansi
  */
 
 window.WEDDING_DATA = {
@@ -11,8 +12,10 @@ window.WEDDING_DATA = {
     brideFull: "Sujata",
     groomParents: "With love and blessings of Family & Friends",
     brideParents: "With love and blessings of Family & Friends",
-    hashtag: "#SujataWedsKushagra",
-    monogram: "S · K",
+    hashtag: "#KushagraWedsSujata",
+    monogram: "K · S",
+    order: "groom-first",
+    groomFirst: true,
   },
 
   wedding: {
@@ -23,8 +26,11 @@ window.WEDDING_DATA = {
 
   venue: {
     name: "Radhika Mandapam",
-    address: "Gwalior Road, Jhansi · Home: 402/1 CP Mission Compound, Jhansi",
+    address: "Gwalior Road, Jhansi · Home: 402/1 CP Mission compound, Jhansi UP 284003",
     mapsQuery: "Radhika Mandapam, Gwalior Road, Jhansi",
+    mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
+    homeAddress: "402/1 CP Mission compound, Jhansi UP 284003",
+    homeMapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
   },
 
   verse: {
@@ -43,6 +49,7 @@ window.WEDDING_DATA = {
       time: "Baraat at 7:00 PM",
       venue: "Radhika Mandapam, Gwalior Road, Jhansi",
       note: "Tika, Pujan & Panigrahan Sanskar • Baraat departs from Siddheshwar Mandir at 7:00 PM",
+      mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
     },
   ],
 
@@ -50,10 +57,12 @@ window.WEDDING_DATA = {
     {
       name: "Bhagyapada Sthapana / Anshudan",
       time: "Sat, 28 Nov · Home",
+      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
     {
       name: "Matrika Pujan",
       time: "Sun, 29 Nov · Home",
+      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
     {
       name: "Baraat Departure (Siddheshwar Mandir)",
@@ -62,10 +71,12 @@ window.WEDDING_DATA = {
     {
       name: "Tika, Pujan & Panigrahan Sanskar",
       time: "Mon, 30 Nov · Radhika Mandapam",
+      mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
     },
     {
       name: "Vadhu Aagaman (Bride's Arrival Home)",
       time: "Tue, 1 Dec · Home",
+      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
   ],
 
@@ -77,8 +88,13 @@ window.WEDDING_DATA = {
 
   music: {
     src: "./editable/assets/bg-music.mp3",
+    track: "./editable/assets/bg-music.mp3",
     title: "Jashn-E-Bahaaraa",
     autoplay: true,
+  },
+
+  footer: {
+    families: "With love and blessings of Family & Friends",
   },
 
   images: {
