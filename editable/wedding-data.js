@@ -6,9 +6,8 @@
 
 window.WEDDING_DATA = {
   couple: {
-    groom: "Kushagra",
     bride: "Sujata",
-    groomFull: "Kushagra",
+    groom: "Kushagra",
     brideFull: "Sujata",
     groomParents: "With love and blessings of Family & Friends",
     brideParents: "With love and blessings of Family & Friends",
@@ -19,9 +18,9 @@ window.WEDDING_DATA = {
   },
 
   wedding: {
-    dateISO: "2026-11-30T19:00:00+05:30",
+    dateISO: "2026-11-30T20:00:00+05:30",
     dateLabel: "Monday, 30th November 2026",
-    timeLabel: "Baraat Departure at 7:00 PM",
+    timeLabel: "Swagat & Baraat at 8:00 PM",
   },
 
   venue: {
@@ -35,18 +34,29 @@ window.WEDDING_DATA = {
 
   verse: {
     hindi: "॥ श्री गणेशाय नमः ॥",
-    text: "Together with their families, Kushagra and Sujata request the honour of your presence as they unite in marriage under the starry sky.",
+    text: "Together with their families, Sujata and Kushagra request the honour of your presence as they embark on this beautiful journey of love and togetherness under a sky full of stars.",
   },
 
   events: [
     {
-      name: "The Wedding Day",
+      name: "Pre-Wedding Functions",
+      icon: "heart",
+      date: "Sunday, 29th November 2026",
+      dayLabel: "Sunday",
+      dayNum: "29",
+      monthLabel: "November 2026",
+      time: "2:00 PM onwards",
+      venue: "Aarambh Banquet, Gwalior Road, Thapak Bagh, Jhansi",
+      note: "Mehendi at 2:00 PM · Sangeet at 7:00 PM",
+    },
+    {
+      name: "Wedding Day",
       icon: "heart",
       date: "Monday, 30th November 2026",
       dayLabel: "Monday",
       dayNum: "30",
       monthLabel: "November 2026",
-      time: "Baraat at 7:00 PM",
+      time: "Swagat / Baraat at 8:00 PM",
       venue: "Radhika Mandapam, Gwalior Road, Jhansi",
       note: "Tika, Pujan & Panigrahan Sanskar • Baraat departs from Siddheshwar Mandir at 7:00 PM",
       mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
