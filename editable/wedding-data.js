@@ -26,7 +26,7 @@ window.WEDDING_DATA = {
 
   venue: {
     name: "Radhika Mandapam",
-    address: "Gwalior Road, Jhansi · Home: 402/1 CP Mission compound, Jhansi UP 284003",
+    address: "Gwalior Road, Jhansi · Groom's Residence: 402/1 CP Mission compound, Jhansi UP 284003",
     mapsQuery: "Radhika Mandapam, Gwalior Road, Jhansi",
     mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
     homeAddress: "402/1 CP Mission compound, Jhansi UP 284003",
@@ -47,8 +47,8 @@ window.WEDDING_DATA = {
       dayNum: "28",
       monthLabel: "November 2026",
       time: "Auspicious Muhurat",
-      venue: "Home: 402/1 CP Mission compound, Jhansi UP 284003",
-      note: "Sacred pre-wedding rituals from residence",
+      venue: "Groom's Residence: 402/1 CP Mission compound, Jhansi UP 284003",
+      note: "Sacred pre-wedding rituals from groom's residence",
       mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
     {
@@ -59,8 +59,8 @@ window.WEDDING_DATA = {
       dayNum: "29",
       monthLabel: "November 2026",
       time: "Sacred Morning Rituals",
-      venue: "Home: 402/1 CP Mission compound, Jhansi UP 284003",
-      note: "Matrika Pujan from residence",
+      venue: "Groom's Residence: 402/1 CP Mission compound, Jhansi UP 284003",
+      note: "Matrika Pujan from groom's residence",
       mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
     {
@@ -83,7 +83,7 @@ window.WEDDING_DATA = {
       dayNum: "01",
       monthLabel: "December 2026",
       time: "Bride's Arrival Home",
-      venue: "Home: 402/1 CP Mission compound, Jhansi UP 284003",
+      venue: "Groom's Residence: 402/1 CP Mission compound, Jhansi UP 284003",
       note: "Warm welcome of the bride to her new home with family blessings",
       mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
@@ -92,12 +92,12 @@ window.WEDDING_DATA = {
   program: [
     {
       name: "Bhagyapada Sthapana / Anshudan",
-      time: "Sat, 28 Nov · Home",
+      time: "Sat, 28 Nov · Groom's Home",
       mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
     {
       name: "Matrika Pujan",
-      time: "Sun, 29 Nov · Home",
+      time: "Sun, 29 Nov · Groom's Home",
       mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
     {
@@ -111,15 +111,15 @@ window.WEDDING_DATA = {
     },
     {
       name: "Vadhu Aagaman (Bride's Arrival Home)",
-      time: "Tue, 1 Dec · Home",
+      time: "Tue, 1 Dec · Groom's Home",
       mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
   ],
 
   venues: [
     {
-      title: "Wedding Festivities (Home)",
-      name: "CP Mission Compound",
+      title: "Wedding Festivities (Groom's Home)",
+      name: "CP Mission Compound (Groom's Residence)",
       events: "Bhagyapada Sthapana, Matrika Pujan & Vadhu Aagaman",
       address: "402/1 CP Mission compound, Jhansi UP 284003",
       mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
@@ -149,7 +149,7 @@ window.WEDDING_DATA = {
   },
 
   footer: {
-    families: "With love and blessings of Family & Friends",
+    families: "With best compliments & blessings from Groom's Family & Friends",
   },
 
   images: {
