@@ -40,6 +40,30 @@ window.WEDDING_DATA = {
 
   events: [
     {
+      name: "Bhagyapada Sthapana / Anshudan",
+      icon: "sparkles",
+      date: "Saturday, 28th November 2026",
+      dayLabel: "Saturday",
+      dayNum: "28",
+      monthLabel: "November 2026",
+      time: "Auspicious Muhurat",
+      venue: "Home: 402/1 CP Mission compound, Jhansi UP 284003",
+      note: "Sacred pre-wedding rituals from residence",
+      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
+    },
+    {
+      name: "Matrika Pujan",
+      icon: "flower",
+      date: "Sunday, 29th November 2026",
+      dayLabel: "Sunday",
+      dayNum: "29",
+      monthLabel: "November 2026",
+      time: "Sacred Morning Rituals",
+      venue: "Home: 402/1 CP Mission compound, Jhansi UP 284003",
+      note: "Matrika Pujan from residence",
+      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
+    },
+    {
       name: "The Wedding Day",
       icon: "heart",
       date: "Monday, 30th November 2026",
@@ -50,6 +74,18 @@ window.WEDDING_DATA = {
       venue: "Radhika Mandapam, Gwalior Road, Jhansi",
       note: "Tika, Pujan & Panigrahan Sanskar • Baraat departs from Siddheshwar Mandir at 7:00 PM",
       mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
+    },
+    {
+      name: "Vadhu Aagaman (Bride's Arrival Home)",
+      icon: "sparkles",
+      date: "Tuesday, 1st December 2026",
+      dayLabel: "Tuesday",
+      dayNum: "01",
+      monthLabel: "December 2026",
+      time: "Bride's Arrival Home",
+      venue: "Home: 402/1 CP Mission compound, Jhansi UP 284003",
+      note: "Warm welcome of the bride to her new home with family blessings",
+      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
     },
   ],
 
@@ -80,6 +116,25 @@ window.WEDDING_DATA = {
     },
   ],
 
+  venues: [
+    {
+      title: "Wedding Festivities (Home)",
+      name: "CP Mission Compound",
+      events: "Bhagyapada Sthapana, Matrika Pujan & Vadhu Aagaman",
+      address: "402/1 CP Mission compound, Jhansi UP 284003",
+      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
+      date: "28 Nov, 29 Nov & 1 Dec 2026",
+    },
+    {
+      title: "The Wedding Day",
+      name: "Radhika Mandapam",
+      events: "Tika, Pujan & Panigrahan Sanskar (Baraat Departure: 7:00 PM from Siddheshwar Mandir)",
+      address: "Gwalior Road, Jhansi",
+      mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
+      date: "Monday, 30th November 2026",
+    },
+  ],
+
   sections: {
     events: true,
     venue: true,
@@ -89,7 +144,7 @@ window.WEDDING_DATA = {
   music: {
     src: "./editable/assets/bg-music.mp3",
     track: "./editable/assets/bg-music.mp3",
-    title: "Jashn-E-Bahaaraa",
+    title: "Jashn Ae bahara",
     autoplay: true,
   },
 
