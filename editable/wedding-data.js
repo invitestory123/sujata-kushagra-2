@@ -118,20 +118,22 @@ window.WEDDING_DATA = {
 
   venues: [
     {
-      title: "Wedding Festivities (Groom's Home)",
-      name: "CP Mission Compound (Groom's Residence)",
-      events: "Bhagyapada Sthapana, Matrika Pujan & Vadhu Aagaman",
-      address: "402/1 CP Mission compound, Jhansi UP 284003",
-      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
-      date: "28 Nov, 29 Nov & 1 Dec 2026",
-    },
-    {
       title: "The Wedding Day",
       name: "Radhika Mandapam",
       events: "Tika, Pujan & Panigrahan Sanskar (Baraat Departure: 7:00 PM from Siddheshwar Mandir)",
       address: "Gwalior Road, Jhansi",
       mapsUrl: "https://maps.google.com/?q=Radhika+Mandapam+Jhansi",
+      mapsQuery: "Radhika Mandapam, Gwalior Road, Jhansi",
       date: "Monday, 30th November 2026",
+    },
+    {
+      title: "Wedding Festivities (Groom's Home)",
+      name: "CP Mission Compound (Groom's Residence)",
+      events: "Bhagyapada Sthapana, Matrika Pujan & Vadhu Aagaman",
+      address: "402/1 CP Mission compound, Jhansi UP 284003",
+      mapsUrl: "https://maps.app.goo.gl/14qTVCMuVdeVWavG9",
+      mapsQuery: "402/1 CP Mission compound Jhansi UP 284003",
+      date: "28 Nov, 29 Nov & 1 Dec 2026",
     },
   ],
 
